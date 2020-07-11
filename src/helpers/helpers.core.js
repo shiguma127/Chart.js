@@ -310,8 +310,10 @@ var helpers = {
 
 	_deprecated: function(scope, value, previous, current) {
 		if (value !== undefined) {
+			/**
 			console.warn(scope + ': "' + previous +
 				'" is deprecated. Please use "' + current + '" instead');
+				*/
 		}
 	}
 };
